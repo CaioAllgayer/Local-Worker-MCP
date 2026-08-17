@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "local-worker": {
+      "command": "local-worker-mcp",
+      "env": {
+        "LOCAL_LLM_PROVIDER": "ollama",
+        "LOCAL_LLM_BASE_URL": "http://192.168.1.100:11434",
+        "LOCAL_LLM_CONNECT_TIMEOUT_SECONDS": "2",
+        "LOCAL_LLM_REQUEST_TIMEOUT_SECONDS": "45",
+        "LOCAL_LLM_MAX_RETRIES": "0",
+        "SECURITY_MODE": "READ_ONLY",
+        "ALLOWED_PATHS": "C:\\Projects,D:\\Research",
+        "ENABLE_SHELL": "false"
+      }
+    }
+  }
+}

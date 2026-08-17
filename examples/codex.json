@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "local-worker": {
+      "command": "local-worker-mcp",
+      "env": {
+        "LOCAL_LLM_PROVIDER": "ollama",
+        "LOCAL_LLM_BASE_URL": "http://127.0.0.1:11434",
+        "LOCAL_LLM_MODEL": "",
+        "SECURITY_MODE": "READ_ONLY",
+        "ALLOWED_PATHS": "C:\\Projects",
+        "ENABLE_SHELL": "false"
+      }
+    }
+  }
+}
